@@ -1,9 +1,10 @@
-#include<bits/stdc++.h>
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
- int main() {
-	// cout << "Enter the number of elements: ";
-    int c ;
-    cin  >> c;
-    cout << "hey " <<c;
- }
+int main()
+{
+    // cout << "Enter the number of elements: ";
+    int c;
+    cin >> c;
+    cout << "hey " << c;
+}
