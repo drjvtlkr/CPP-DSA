@@ -1,4 +1,2 @@
-20 this here is being printed
-10
-20 this being printed
-20
+value inside internal function: 105
+Value inside main is: 105
