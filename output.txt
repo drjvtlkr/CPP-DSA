@@ -1,2 +1,5 @@
-value inside internal function: 105
-Value inside main is: 105
+*****
+*****
+*****
+*****
+*****
