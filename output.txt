@@ -1,13 +1,10 @@
-Your Entered Number is: 
-5
-        * 
-      * * 
-    * * * 
-  * * * * 
 * * * * * 
-Now I'm running the while function
-        * 
-      * * 
-    * * * 
   * * * * 
+    * * * 
+      * * 
+        * 
 * * * * * 
+  * * * * 
+    * * * 
+      * * 
+        * 
