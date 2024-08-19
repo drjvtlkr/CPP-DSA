@@ -1,32 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void loop(int n)
+int func(int n)
 {
-    int num = 1;
+    int num = 65;
 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j <= i; j++)
         {
-            cout << num << " ";
+            char ch = char(num);
+            cout << ch << " ";
         }
-        num = num + 1;
+        num++;
         cout << endl;
     }
 }
 
-void loop2(int n)
+int func2(int n)
 {
-    int i = 1, j = 0;
+    int i = 1, j = 0, num = 65;
+    char alpha = char(num);
 
     while (i <= n)
     {
         while (j <= i - 1)
         {
-            cout << i << " ";
+            cout << alpha << " ";
             j++;
         }
+        alpha++;
         j = 0;
         i++;
         cout << endl;
@@ -37,7 +40,7 @@ int main()
 {
     int n;
     cin >> n;
-    loop(n);
-    loop2(n);
+    func(n);
+    func2(n);
     return 0;
 }
